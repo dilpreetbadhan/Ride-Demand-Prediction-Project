@@ -5,7 +5,7 @@ Project Overview
 This project aims to analyze and predict ride-sharing demand based on weather conditions and time-based features. By integrating ride data with weather data, we explore how factors like temperature, precipitation, and wind speed impact ride demand.
 
 The project includes data cleaning, feature engineering, exploratory data analysis (EDA), and building a predictive model to forecast ride counts.
-
+ 
 Objectives
 
 1.Integrate and clean ride-sharing and weather datasets.
