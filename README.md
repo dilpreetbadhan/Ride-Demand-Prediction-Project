@@ -339,7 +339,6 @@ plt.ylabel("Predicted Ride Count")
 plt.title("Actual vs Predicted Ride Counts")
 plt.savefig("Figures/actual_vs_predicted.png")
 plt.show()
-![image](https://github.com/user-attachments/assets/1a20ca2d-a799-46a5-aca9-a63b4591b81f)
 
 
 
