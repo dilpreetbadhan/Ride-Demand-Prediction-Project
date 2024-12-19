@@ -63,42 +63,32 @@ Visualized the data to understand patterns:
 Visualized Actual vs Predicted Ride Counts.
 
 
+
 * Visualizations
   
-1. Monthly Ride Demand
+1. Monthly Ride Demand ![Figure_1](https://github.com/user-attachments/assets/962d03ac-f348-43b1-901f-060f229fcfb1)
 
-2. Ride Demand: Rainy vs Non-Rainy Days
+2. Ride Demand: Rainy vs Non-Rainy Days  ![Figure_6](https://github.com/user-attachments/assets/11c544be-7ece-447d-a74f-338dc4da3fec)
 
-3. Ride Demand: Weekend vs Weekday
+3. Ride Demand: Weekend vs Weekday ![Figure_5](https://github.com/user-attachments/assets/10320f68-fa74-4795-bc0e-951bec8a9ee5)
 
-4. Temperature vs Ride Count
+4. Ride Demand: weekend vs Weekday(Rainy vs Non-Rainy)  ![Figure_7](https://github.com/user-attachments/assets/f7112a17-1b1b-41a7-8ef8-c19ec7caf3dd)
+   
+5. Actual vs Predicted Ride Counts   ![Final](https://github.com/user-attachments/assets/435fc950-8a7f-4e39-ab8e-3baf9bdf2a43)
 
-5. Wind Speed vs Ride Count
-
-6. Actual vs Predicted Ride Counts
 
 Project Structure
 
 The project directory is organized as follows:
 
- 
-Ride_Demand_Prediction/
-│
-├── cleaned_data.csv                 # Original Ride Data
-├── New York City Weather.csv        # Weather Data collected via API
-├── refined_merged_data.csv          # Merged and Cleaned Data
-├── interpolated_data.csv            # Data with Missing Values Filled
-├── feature_engineered_data.csv      # Dataset with New Features
-├── ride_demand_analysis.py          # Complete Python Code
-├── Figures/                         # Folder for Visualizations
-│   ├── monthly_demand.png           # Monthly Demand Plot
-│   ├── rainy_vs_nonrainy.png        # Rainy vs Non-Rainy Plot
-│   ├── weekend_vs_weekday.png       # Weekend vs Weekday Plot
-│   ├── temp_vs_rides.png            # Temperature Impact
-│   ├── windspeed_vs_rides.png       # Wind Speed Impact
-│   ├── actual_vs_predicted.png      # Actual vs Predicted Ride Counts
-│
-└── README.md                        # Project Documentation
+ Ride_Demand_Prediction/
+
+   cleaned_data.csv                 *Original Ride Data
+   New York City Weather.csv        * Weather Data collected via API
+   refined_merged_data.csv          * Merged and Cleaned Data
+   interpolated_data.csv            * Data with Missing Values Filled
+   feature_engineered_data.csv      * Dataset with New Features
+   ride_demand_analysis.py          * Complete Python Code
 
 
 How to Run the Project
