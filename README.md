@@ -9,8 +9,11 @@ The project includes data cleaning, feature engineering, exploratory data analys
 Objectives
 
 1.Integrate and clean ride-sharing and weather datasets.
+
 2.Perform exploratory data analysis (EDA) to identify patterns in ride demand.
+
 3.Develop a predictive model to estimate ride counts using weather and time features.
+
 4.Visualize insights and evaluate model performance.
 
 Data Sources
@@ -47,8 +50,11 @@ is_humid: Humidity > 70%
 Visualized the data to understand patterns:
 
   1.Monthly Ride Demand: Number of rides per month.
+  
   2.Rainy vs Non-Rainy Days: Comparison of ride demand on rainy and clear days.
+  
   3.Weekend vs Weekday Demand: Ride trends on weekends vs weekdays.
+  
   4.Temperature and Wind Impact:
    Scatter plots showing the relationship between temp, windspeed, and ride counts.
 
